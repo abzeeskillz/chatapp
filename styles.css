@@ -1,0 +1,390 @@
+                                        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+                                        $desktop: 1200px;
+                                        $laptop: 992px;
+                                        $tablet:768px;
+                                        $phone: 480px;
+                                        #project {
+                                            /* height: 50vh; */
+                                            font-family: "Rubik";
+                                        }
+                                        
+                                        .container {
+                                            margin: 0;
+                                            margin-right: 10px;
+                                            background: hsla(271, 76%, 53%, 1);
+                                            background: linear-gradient(90deg, hsla(271, 76%, 53%, 1) 40%, #a63feb 100%);
+                                            background: -moz-linear-gradient(90deg, hsla(271, 76%, 53%, 1) 40%, rgb(170, 77, 233) 100%);
+                                            background: -webkit-linear-gradient(90deg, hsla(271, 76%, 53%, 1) 40%, rgb(174, 76, 240) 100%);
+                                            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8A2BE2", endColorstr="#918DAC", GradientType=1);
+                                            width: 20%;
+                                            height: 100vh;
+                                            border-bottom-left-radius: x;
+                                            border-bottom-right-radius: 80%;
+                                            float: left;
+                                        }
+                                        
+                                        .container2 {
+                                            margin-top: 8rem;
+                                            margin-left: 40rem;
+                                            background-color: blueviolet;
+                                            width: 20%;
+                                            height: 100vh;
+                                            border-top-left-radius: 80%;
+                                            /* border-top-right-radius: 45% 45%; */
+                                            float: right;
+                                            /* position: relative; */
+                                            opacity: 0.1;
+                                        }
+                                        
+                                        .center-text {
+                                            justify-self: center;
+                                            width: 35%;
+                                            text-align: left;
+                                            display: grid;
+                                            position: absolute;
+                                            margin-top: 300px;
+                                            margin-left: 700px;
+                                        }
+                                        
+                                        .simple {
+                                            color: #3e2753;
+                                            padding-bottom: 20px;
+                                            font-size: 4rem;
+                                        }
+                                        
+                                        .stay {
+                                            color: rgb(194, 192, 192);
+                                            font-size: small;
+                                            line-height: 1.5;
+                                            font-size: 1rem;
+                                        }
+                                        
+                                        .iphone {
+                                            width: 321px;
+                                            height: 600px;
+                                            border-radius: 40px;
+                                            position: absolute;
+                                            overflow: hidden;
+                                            justify-content: center;
+                                            background-color: #ffffff;
+                                            float: left;
+                                            margin-left: 200px;
+                                            margin-top: 100px;
+                                            box-shadow: 5px 5px 40px grey;
+                                        }
+                                        
+                                        .screen {
+                                            width: 302px;
+                                            height: 582px;
+                                            border-radius: 40px;
+                                            position: relative;
+                                            overflow: hidden;
+                                            background-color: #ddd6d6b9;
+                                            margin-top: 9px;
+                                            margin-left: 9px;
+                                        }
+                                        
+                                        .top-quarter {
+                                            display: grid;
+                                            grid-template-columns: [first] 100%, [line2] 25%;
+                                            /* grid-template-rows: [first] 50%; */
+                                            height: 18%;
+                                            background-color: #8a2be2;
+                                            background: hsla(262, 77%, 53%, 1);
+                                            background: linear-gradient(90deg, hsla(262, 77%, 53%, 1) 21%, rgb(200, 101, 233) 100%);
+                                            background: -moz-linear-gradient(90deg, hsla(262, 77%, 53%, 1) 21%, rgb(200, 72, 243) 100%);
+                                            background: -webkit-linear-gradient(90deg, hsla(262, 77%, 53%, 1) 21%, rgb(214, 123, 245) 100%);
+                                            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6F2BE3", endColorstr="#B00BE7", GradientType=1);
+                                            border-bottom-left-radius: 8px;
+                                            border-bottom-right-radius: 8px;
+                                        }
+                                        
+                                        .quarter-break {
+                                            height: 5%;
+                                            background-color: #ffffff;
+                                            width: 60%;
+                                            border-bottom-left-radius: 40px;
+                                            border-bottom-right-radius: 40px;
+                                            margin-left: 60px;
+                                            margin-bottom: 500px;
+                                            position: absolute;
+                                        }
+                                        
+                                        .top-content {
+                                            /* display: grid; */
+                                            /* grid-template-columns: auto, auto, auto, auto; */
+                                            /* grid-template-rows: 25%, 25%, 25%; */
+                                            margin-top: 45px;
+                                            width: auto;
+                                            float: left;
+                                            /* margin-left: 45px; */
+                                        }
+                                        
+                                        .pic {
+                                            border-radius: 40px;
+                                            margin-left: 5px;
+                                            float: left;
+                                            border: solid 1px #ffffff;
+                                        }
+                                        
+                                        .text-samuel {
+                                            float: left;
+                                            color: #ffffff;
+                                            padding-left: 11px;
+                                            line-height: 2px;
+                                            margin: 0;
+                                        }
+                                        
+                                        .dots {
+                                            float: left;
+                                            color: #ffffff;
+                                            height: 20%;
+                                            width: 5px;
+                                            border-left: 3px dotted;
+                                            border-left-style: dotted;
+                                            margin-left: 90px;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .sam {
+                                            font-size: 1rem;
+                                            margin: 0;
+                                        }
+                                        
+                                        .walk {
+                                            font-size: x-small;
+                                            font-weight: lighter;
+                                            color: #d89eff
+                                        }
+                                        
+                                        .arrow-left {
+                                            /* display: grid; */
+                                            /* margin: 3px auto; */
+                                            width: 10px;
+                                            height: 10px;
+                                            border-top: 2px solid #ffffff;
+                                            border-left: 2px solid #ffffff;
+                                            transform: rotate(-45deg);
+                                            float: left;
+                                            margin-top: 10px;
+                                            margin-left: 30px;
+                                        }
+                                        
+                                        .bubble1,
+                                        .bubble2,
+                                        .bubble5 {
+                                            background-color: rgb(215, 193, 235);
+                                            height: 8%;
+                                            width: 50%;
+                                            border-radius: 15px;
+                                            margin-top: 10px;
+                                            margin-left: 10px;
+                                        }
+                                        
+                                        .bubble5 {
+                                            height: 9%;
+                                        }
+                                        
+                                        .bubble1chat,
+                                        .bubble2chat,
+                                        .bubble3chat,
+                                        .bubble5chat {
+                                            font-size: x-small;
+                                            text-align: left;
+                                            justify-content: center;
+                                            padding: 9px 7px;
+                                            line-height: 1.3;
+                                            color: #9241c8;
+                                        }
+                                        
+                                        .dogs {
+                                            float: right;
+                                            padding: 7px 7px 2px;
+                                        }
+                                        
+                                        .dog-image {
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .bubble3 {
+                                            float: none;
+                                            background-color: rgb(255, 255, 255);
+                                            height: 7%;
+                                            width: 50%;
+                                            border-radius: 15px;
+                                            margin-top: 55px;
+                                            margin-left: 145px;
+                                        }
+                                        
+                                        .bubble3chat,
+                                        .bubble4chat {
+                                            font-size: x-small;
+                                            text-align: left;
+                                            justify-content: center;
+                                            padding: 9px 7px;
+                                            line-height: 1.3;
+                                            color: #6e5d7e;
+                                        }
+                                        
+                                        .bubble4 {
+                                            float: none;
+                                            background-color: rgb(255, 255, 255);
+                                            height: 5%;
+                                            width: 32%;
+                                            border-radius: 15px;
+                                            margin-top: 10px;
+                                            margin-left: 198px;
+                                        }
+                                        
+                                        .circle {
+                                            width: 15px;
+                                            height: 15px;
+                                            border-radius: 40px;
+                                            margin-left: 5px;
+                                            margin-top: 4px;
+                                            margin-right: 10px;
+                                            float: left;
+                                            border: solid 1px #ffffff;
+                                        }
+                                        
+                                        .bubble6 {
+                                            background-color: rgb(119, 14, 218);
+                                            background: hsla(285, 91%, 47%, 1);
+                                            background: linear-gradient(90deg, hsla(285, 91%, 47%, 1) 0%, hsla(262, 77%, 53%, 1) 100%);
+                                            background: -moz-linear-gradient(90deg, hsla(285, 91%, 47%, 1) 0%, hsla(262, 77%, 53%, 1) 100%);
+                                            background: -webkit-linear-gradient(90deg, hsla(285, 91%, 47%, 1) 0%, hsla(262, 77%, 53%, 1) 100%);
+                                            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B00BE7", endColorstr="#6F2BE3", GradientType=1);
+                                            height: 7%;
+                                            width: 70%;
+                                            border-radius: 15px;
+                                            margin-top: 10px;
+                                            margin-left: 10px;
+                                            justify-content: center;
+                                            padding: 10px;
+                                            float: left;
+                                        }
+                                        
+                                        .bubble6chat {
+                                            font-size: x-small;
+                                            text-align: left;
+                                            justify-content: center;
+                                            padding: 5px 5px;
+                                            line-height: 1.3;
+                                            color: rgb(198, 174, 245);
+                                            float: left;
+                                        }
+                                        
+                                        .prize {
+                                            float: left;
+                                            /* margin-top: 1px; */
+                                            margin-left: 36px;
+                                            color: #ffffff;
+                                        }
+                                        
+                                        .prize2 {
+                                            float: left;
+                                            /* margin-top: 3px; */
+                                            margin-left: 53px;
+                                            color: #ffffff;
+                                        }
+                                        
+                                        .chatbox {
+                                            background-color: rgb(253, 253, 253);
+                                            height: 7%;
+                                            width: 90%;
+                                            border-radius: 25px;
+                                            margin-top: 10px;
+                                            margin-left: 15px;
+                                            justify-content: center;
+                                            padding: 10px;
+                                            float: left;
+                                            /* z-index: 0; */
+                                        }
+                                        
+                                        .type {
+                                            font-size: 0.8rem;
+                                            color: grey;
+                                            width: 50%;
+                                            float: left;
+                                            padding: 5px;
+                                        }
+                                        
+                                        .circle2 {
+                                            width: 25px;
+                                            height: 25px;
+                                            border-radius: 40px;
+                                            /* margin-top: 1px; */
+                                            margin-left: 223px;
+                                            /* margin-bottom: 20px; */
+                                            float: left;
+                                            border: solid 1px #fcfcfc;
+                                            padding-bottom: 10px;
+                                            position: absolute;
+                                            background-color: rgb(5, 5, 5);
+                                            z-index: 0;
+                                        }
+                                        
+                                        .blackarrow {
+                                            width: 8px;
+                                            height: 8px;
+                                            border-top: 2px solid #ffffff;
+                                            border-left: 2px solid #ffffff;
+                                            transform: rotate(135deg);
+                                            float: left;
+                                            margin-top: 7px;
+                                            margin-left: 103px;
+                                            z-index: 4;
+                                        }
+                                        
+                                        @media (max-width: 1068px) {
+                                            .iphone {
+                                                margin-top: 20px;
+                                                margin-left: 40px;
+                                            }
+                                            .container {
+                                                width: 50%;
+                                                height: 70vh;
+                                                border-bottom-right-radius: 100%;
+                                                border-bottom-left-radius: 0%;
+                                            }
+                                            .container2 {
+                                                display: none;
+                                            }
+                                            .center-text {
+                                                /* position: absolute; */
+                                                top: 400px;
+                                                right: 30px;
+                                                width: 90%;
+                                                text-align: center;
+                                            }
+                                            .simple {
+                                                font-size: 2.5rem;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                        
+                                        @media (min-width: 802px) and (max-width: 1300px) {
+                                            .iphone {
+                                                margin-top: 30px;
+                                                margin-left: 100px;
+                                            }
+                                            .container {
+                                                width: 20%;
+                                                /* height: 100vh; */
+                                                border-bottom-right-radius: 70%;
+                                                border-bottom-left-radius: 0%;
+                                            }
+                                            .container2 {
+                                                display: none;
+                                            }
+                                            .center-text {
+                                                margin: 200px;
+                                                right: 20px;
+                                                width: 40%;
+                                            }
+                                            */
+                                            /* .simple {
+                                                    font-size: 2.5rem;
+                                                    font-weight: bold;
+                                                } */
+                                        }
